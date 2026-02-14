@@ -1,0 +1,201 @@
+campaign_id,campaign_name,campaign_type,start_date,end_date,target_segment,budget,impressions,clicks,conversions,conversion_rate,roi
+0d120125-26cc-4023-9a54-bebbc0159b76,Black Friday Sale 2022,Online Display Ads,9/29/2020,11/13/2020,Southern States,14528.9,740965,1189,53,4.46,-61.31
+152bbef1-7ced-46ec-b252-fb396a78261e,Limited Time Promotion 2023,Influencer Marketing,11/12/2020,11/26/2020,Technology Enthusiasts,42749.22,2762249,27008,634,2.35,558.13
+eedd0753-1436-4e7f-8f5f-4a237aa3204a,Back to School Sale 2024,Print Advertisement,3/5/2022,6/3/2022,Seniors (60+),58955.33,3845868,25984,1235,4.75,501.18
+09e1626c-5b59-4fa7-b5e2-a1d1446c9fd9,Weekend Blowout 2020,Email Marketing,3/12/2022,6/10/2022,Technology Enthusiasts,9414.34,707728,17802,1357,7.62,2002.81
+3de639fc-f687-440f-bccf-d3700a3d38b8,Limited Time Special 2021,Print Advertisement,8/12/2021,11/10/2021,Loyal Customers,75307.55,6930900,51264,1873,3.65,1037.3
+88edf40b-4452-4d1c-acb8-0bb247a3631c,Exclusive Sale 2023,In-Store Promotion,7/31/2020,8/14/2020,Young Adults (18-25),12049,1091120,6257,2140,34.2,4078.62
+d6d54343-657a-49d9-8fed-df41758e98b0,Flash Collection 2022,Print Advertisement,12/21/2020,3/21/2021,Home Improvement,50163.7,513631,4793,164,3.42,-23.24
+81fdabf4-8594-4411-8633-971f52d1d657,Clearance Promotion 2020,Influencer Marketing,9/8/2024,11/7/2024,Technology Enthusiasts,25784.93,835973,2791,50,1.79,-47.46
+7e3abf5e-aec1-4541-a86b-63f4092f21d7,Flash Discount 2021,Social Media,11/2/2023,1/31/2024,New Customers,14225.53,969605,12146,163,1.34,97.36
+3f2d1ecb-0c9c-442e-bde3-5b31e9ddadf0,Anniversary Deals 2024,Print Advertisement,6/28/2023,8/12/2023,Adults (26-40),51057.91,2959908,15916,592,3.72,168.93
+b2c86f77-4ead-42e6-a0f5-67ce532e505c,New Year Special 2022,Email Marketing,3/30/2020,5/14/2020,East Coast,15819.2,75897,1291,94,7.28,11.39
+c3820062-46e6-4ab8-9371-94a32ec0afb5,,Print Advertisement,12/19/2024,2/26/2025,Seniors (60+),78226.78,3602687,,341,2.47,39.82
+2cd2db16-9a66-435c-bace-051ecb3d52e3,Black Friday Collection 2022,SMS Marketing,9/12/2024,10/12/2024,Home Improvement,14017.74,824963,3551,,2,25.27
+47e32b9e-062b-4b55-923d-77f542a493e0,Spring Event 2021,Search Engine Marketing,12/8/2020,1/7/2021,New Customers,10185.73,,2617,,7.18,689.32
+c4f080ae-819d-4fee-8a5c-1e541fa45f9f,Clearance Collection 2023,SMS Marketing,6/21/2021,8/5/2021,All Customers,16373.45,773843,2760,114,4.13,174.58
+39f72fbb-1bcf-42d1-afcd-9a9641ef9d45,Summer Discount 2020,Social Media,3/1/2022,4/15/2022,In-Store Shoppers,23954.04,1700885,17597,849,4.82,951.6
+8254eddc-5377-4bb5-a9d7-322d57e766cb,Black Friday Blowout 2022,TV Advertisement,12/9/2021,2/7/2022,Seniors (60+),132021.22,3191296,,209,2.06,-73.61
+448c84c0-741b-4756-8f8f-9cc3a66770de,Limited Time Extravaganza 2023,Online Display Ads,2/11/2023,3/28/2023,Kitchen Enthusiasts,21433.07,1919959,4824,169,3.5,223.22
+92c83fcb-6640-47d2-a8a3-f0496eee1af2,Winter Discount 2021,Social Media,9/15/2021,9/29/2021,West Coast,16715.74,1664971,12457,207,1.66,123.13
+35f1e163-cb32-4823-af4f-f6ba6b9de5fa,VIP Promotion 2021,Radio Advertisement,10/3/2022,10/17/2022,Home Improvement,79410.65,4771563,17955,542,3.02,35.3
+d911890f-d922-4289-8b5b-5b20dfcf51c3,Black Friday Collection 2023,SMS Marketing,4/24/2021,5/24/2021,Adults (26-40),21853.11,1880866,,102,3.43,-46.47
+0c6ea344-b50d-42e3-bf81-f6927c362e92,Holiday Blowout 2022,SMS Marketing,2/10/2023,5/11/2023,Technology Enthusiasts,25750.57,1440342,9768,114,1.17,94.71
+e00fd548-a5a8-40f9-8c52-72c4b34284d4,Black Friday Deals 2020,TV Advertisement,12/23/2022,12/30/2022,Online Shoppers,131257.78,3033564,24788,529,2.13,14.14
+726dc70e-4af5-4c70-8e56-e68c98f556a1,Black Friday Sale 2022,Radio Advertisement,3/7/2021,3/21/2021,High-Value Customers,,4841153,10317,161,1.56,9.16
+3f7fd90c-03ef-4953-91bd-e72397a9eeb2,Weekend Discount 2023,TV Advertisement,2/9/2023,3/26/2023,Online Shoppers,108005.69,8621500,48860,1626,3.33,594.46
+06661374-6b39-443b-b85b-befa20264531,Black Friday Discount 2021,Social Media,12/6/2023,1/20/2024,In-Store Shoppers,35630.2,2515837,20529,613,2.99,167.19
+204ad49f-41a3-4a2b-95d2-60f23f44c6ba,Flash Sale 2021,In-Store Promotion,12/24/2024,1/7/2025,Online Shoppers,6268.59,166072,,210,22.11,804.47
+5dee1c99-b9d9-47ba-b132-1527ce542bf2,Exclusive Blowout 2024,Search Engine Marketing,8/1/2023,8/31/2023,Kitchen Enthusiasts,16876.37,188228,6879,441,6.41,654.56
+22fc0845-70cc-4dda-ad0f-1e04db99730c,Weekend Bonanza 2022,Influencer Marketing,5/14/2021,5/28/2021,Home Improvement,46985.84,1385372,10899,329,3.02,223.56
+0f9f8235-b50c-4127-937c-5a1a45fd9f71,Fall Sale 2021,Search Engine Marketing,7/31/2021,9/14/2021,Home Improvement,12684.09,748505,,2974,6.92,9810.99
+adc7ef32-479d-49e2-95cf-258dcb6193b7,Weekend Extravaganza 2023,Radio Advertisement,3/31/2021,4/7/2021,Seniors (60+),59618.56,762891,1124,45,4,-69.02
+61d4a246-a511-45e9-a070-c70a2423cc5c,VIP Special 2021,Online Display Ads,9/21/2021,10/5/2021,Kitchen Enthusiasts,21709.49,1576749,9504,262,2.76,305.57
+248a17d2-cf4a-41c7-bd29-026b068cac18,Limited Time Bonanza 2021,Print Advertisement,8/5/2020,10/4/2020,Adults (26-40),48248.05,823406,5400,190,3.52,8.97
+c97a0509-d382-4561-91ec-a6222a68fd01,Black Friday Special 2020,Influencer Marketing,7/9/2022,7/23/2022,Kitchen Enthusiasts,62819.66,4449491,9499,189,1.99,-31.81
+94f7c731-d703-4f45-bea6-8bad1da841fb,Black Friday Extravaganza 2020,Email Marketing,6/15/2020,6/29/2020,West Coast,29567.53,2926153,84259,3039,3.61,2436.83
+7d3ac782-2b61-42e6-9ae6-9f5f7b019434,Clearance Event 2021,Email Marketing,10/12/2021,10/26/2021,Home Improvement,,859205,24022,1143,4.76,1036.17
+8b5d0307-5d82-444b-a427-925be4fcfcc3,Black Friday Sale 2021,Influencer Marketing,11/9/2021,12/24/2021,Adults (26-40),49509.08,2855238,2935,96,3.27,-50.03
+2985e794-ed8c-46b9-91d1-b052bfdae49a,Flash Extravaganza 2023,Social Media,10/10/2021,10/17/2021,Young Adults (18-25),32328.47,644804,4175,146,3.5,63.24
+88c9084c-bc99-445b-98b5-6c3c34259744,Fall Collection 2020,Online Display Ads,2/20/2021,4/21/2021,East Coast,36948.1,1876893,2705,129,4.77,1.74
+0c7de89e-aba6-4df6-b76a-d50f3f5fb867,Limited Time Blowout 2020,Search Engine Marketing,1/18/2025,2/26/2025,Middle-aged (41-60),41806.13,3764537,,30865,12.63,11773.16
+73a576ba-7465-44a1-b779-949e87bfc8d8,VIP Bonanza 2024,Influencer Marketing,9/18/2020,11/2/2020,Technology Enthusiasts,57749.11,658882,1067,30,2.81,-84.37
+264f4b08-c816-447e-8e6c-db5b5d7114c5,Exclusive Collection 2024,,4/19/2020,4/26/2020,Technology Enthusiasts,17138.09,125872,3930,215,5.47,62.05
+eae02689-7676-429b-adc9-235703811518,Summer Special 2024,TV Advertisement,6/29/2022,8/28/2022,Midwest,89558.81,4948697,18045,720,3.99,271.89
+763bbec3-5737-4e26-bc22-a157d709f264,New Year Bonanza 2023,In-Store Promotion,11/9/2024,12/24/2024,Southern States,25282.6,907743,3887,1520,39.1,1890.77
+aa0f2ebc-4d9c-4493-9d2f-ce80fa729982,Exclusive Bonanza 2022,Print Advertisement,12/20/2022,1/3/2023,Kitchen Enthusiasts,43309.54,3342409,12703,428,3.37,93.9
+597f3c44-49c9-4d2a-bddd-8c616934c8f6,Black Friday Extravaganza 2023,Influencer Marketing,9/27/2023,10/11/2023,High-Value Customers,21197.95,1945452,8896,93,1.05,341.56
+751d87f4-c7d1-4923-bd08-44963e0eab4b,Anniversary Special 2023,TV Advertisement,6/7/2023,6/14/2023,Middle-aged (41-60),130993.67,3124120,14219,586,4.12,95.15
+8f8cbdaf-da5f-478e-99a6-bd36ffe08e77,Exclusive Promotion 2023,SMS Marketing,11/27/2023,12/27/2023,Kitchen Enthusiasts,26727.1,1686883,12059,472,3.91,647.2
+a46c8f76-c7e4-43fb-bcea-3b134178e7fb,Holiday Collection 2020,Search Engine Marketing,3/3/2022,3/10/2022,New Customers,18066.65,721363,38987,3916,10.04,8409.83
+f9fcda00-bff1-469d-a688-1b1ff553402b,Holiday Bonanza 2022,In-Store Promotion,11/22/2024,11/29/2024,All Customers,8661.33,299407,,195,39.63,236.26
+a43e8a8c-0f96-40c2-9456-b6cdff6afac3,Weekend Collection 2020,Influencer Marketing,10/24/2022,12/8/2022,Southern States,70281.03,2467489,7328,336,4.59,23.34
+54560f9e-114a-41da-9775-ae932ea549cb,New Year Sale 2020,Search Engine Marketing,3/26/2024,5/25/2024,Inactive Customers,47180.97,2526923,149983,21705,14.47,7946.05
+ab819a82-dc51-4f12-b44f-9cc694bf2fab,New Year Collection 2021,Radio Advertisement,6/17/2021,6/24/2021,East Coast,125362.02,1140443,9844,108,1.1,-67.99
+0a6c0dfa-8740-4ced-8d20-08ed838e912c,New Year Event 2021,In-Store Promotion,12/14/2020,2/12/2021,Young Adults (18-25),5011.24,409539,2871,649,22.61,1520.44
+6d7d439f-f794-4254-a356-3ee927853d78,Black Friday Extravaganza 2022,Online Display Ads,4/14/2020,4/28/2020,East Coast,45314.64,1026072,6765,324,4.79,202.22
+f9a3dcc4-9d7d-427b-badf-0a4f3d531290,Fall Promotion 2022,Online Display Ads,12/29/2023,2/27/2024,Adults (26-40),33128.5,1151619,2404,38,1.58,
+91043867-83ed-4bca-8a7e-1ab64d71a506,Back to School Deals 2021,Online Display Ads,5/27/2024,7/26/2024,Inactive Customers,13175.08,219826,1731,49,2.83,45.89
+4e5f1839-4d4a-43f4-acd5-25ae20c459e9,Clearance Collection 2021,Influencer Marketing,5/13/2022,8/11/2022,In-Store Shoppers,,1982184,12377,433,3.5,955.62
+7f4c23bf-74f0-4ee7-8dab-2872ca4234fc,Clearance Promotion 2021,TV Advertisement,1/4/2021,1/18/2021,Inactive Customers,199238.42,10615343,42286,1149,2.72,-22.18
+45bf7496-7f94-4163-ad86-d1c8b6a88c8a,Flash Bonanza 2023,Radio Advertisement,2/18/2023,3/20/2023,Southern States,100404.11,2770852,13359,453,3.39,-53.19
+0be68843-5882-41f2-aafb-d95717708498,Black Friday Special 2023,Print Advertisement,11/10/2023,2/8/2024,Online Shoppers,68823.27,3566015,21611,732,3.39,85.07
+731c46c4-396e-4c7e-91fb-6af66add3f04,VIP Collection 2024,Radio Advertisement,5/20/2020,5/27/2020,East Coast,142087.32,3028378,9504,182,1.91,-46.93
+8a7e3b53-8386-42a8-a3b8-8a3c13071bbf,New Year Discount 2024,Print Advertisement,8/3/2022,10/2/2022,High-Value Customers,79211.67,4471886,30902,992,3.21,795.1
+a64e4f51-0641-41ed-8966-522bb13a1b65,Anniversary Bonanza 2024,In-Store Promotion,3/7/2021,6/5/2021,Seniors (60+),24741.23,748664,6521,1724,26.44,3332.43
+b2561359-bc93-47e4-a45c-9ae50248a610,Anniversary Event 2024,In-Store Promotion,2/1/2021,3/18/2021,East Coast,25694.56,1076214,5814,1421,24.44,678.24
+49fe99c6-27c7-4a41-8ae7-c81a49bec3d5,,TV Advertisement,5/19/2020,8/17/2020,East Coast,103900.72,622957,2519,38,1.51,-92.62
+cf2dfa54-404c-4418-8722-50131382926b,Winter Promotion 2022,,10/27/2020,1/25/2021,East Coast,26701.68,254493,845,216,25.56,206.9
+fe321409-61d2-4f38-926b-effe7bbcaa36,Exclusive Sale 2020,In-Store Promotion,1/17/2023,2/16/2023,Seniors (60+),10475.28,916302,1955,641,32.79,2403.05
+162cf546-eb1a-4abc-84d6-591b203a1095,VIP Blowout 2024,Social Media,5/24/2021,6/23/2021,Kitchen Enthusiasts,12237.21,1048047,19293,,1.74,875.33
+047c8f98-2a6c-44e2-b009-73ec399bb262,Back to School Collection 2022,Email Marketing,2/20/2023,3/22/2023,Online Shoppers,24505.04,1212342,39283,2612,6.65,4554.54
+a3129848-1b75-43db-9547-dad305e5e5c0,Exclusive Special 2020,In-Store Promotion,5/24/2024,8/22/2024,Inactive Customers,14376.99,806674,7766,2920,37.6,4439.81
+e43e98ec-64be-4725-96f1-1621289bacb8,Winter Collection 2022,SMS Marketing,1/2/2024,1/16/2024,Loyal Customers,13080.46,396544,699,21,3,-42.29
+01cf81a9-23b8-46ee-810b-14ecc90e8d02,Back to School Deals 2022,Radio Advertisement,9/19/2024,11/3/2024,East Coast,108048.97,5750593,,1203,2.24,208.26
+38d960e0-eb21-4aa2-b4e1-4783085bfa81,Fall Event 2022,Search Engine Marketing,6/25/2020,8/24/2020,New Customers,25310.65,1782598,69846,7749,11.09,14649.02
+d9dd9e70-e314-460c-96d8-f315db289480,New Year Special 2022,TV Advertisement,5/7/2023,7/6/2023,Midwest,65507.83,769782,2197,88,4.01,-32.97
+25934dac-0eac-47e8-bc4a-7ee588fdc8e1,Limited Time Sale 2021,Online Display Ads,11/1/2021,12/31/2021,Online Shoppers,13865.94,382968,1738,37,2.13,-32.23
+80108080-3ce9-4cb2-8430-5b577f768c73,Holiday Deals 2023,Influencer Marketing,7/23/2023,9/6/2023,Technology Enthusiasts,48103.87,926913,6539,323,4.94,99.65
+038bb346-9db6-4560-ba78-27b418c966ac,Exclusive Extravaganza 2024,Radio Advertisement,5/1/2021,7/30/2021,Inactive Customers,111146.5,554209,766,12,1.57,-94.79
+854871f9-ee3b-4c7d-8ea4-cd70ad409988,Summer Deals 2022,Search Engine Marketing,3/29/2024,5/13/2024,New Customers,38589.07,414932,24128,3220,13.35,2334.04
+786abd6d-e85c-48da-9707-7137892d3997,Flash Sale 2020,Online Display Ads,8/18/2021,9/1/2021,Loyal Customers,44696.86,3883473,,859,2.45,288.88
+8af947d0-9a2a-4bb1-8083-e91c1e0c44bd,Winter Special 2022,Email Marketing,5/21/2021,5/28/2021,Seniors (60+),25166.69,2067108,81859,4346,5.31,3393.77
+4a28fb0a-3344-480c-87cf-1c922e1f2a99,Holiday Discount 2022,Search Engine Marketing,10/20/2023,11/3/2023,Technology Enthusiasts,35260.38,673406,52798,5912,11.2,5426.25
+13458b14-1d05-479d-9a20-4fb8d1db50f2,VIP Extravaganza 2022,Influencer Marketing,8/19/2024,10/18/2024,Middle-aged (41-60),34572.01,1135683,10312,220,2.13,43.72
+5f0e7e89-9fc0-41b3-9905-65cef461279d,Black Friday Collection 2023,Influencer Marketing,6/16/2024,6/30/2024,West Coast,74194.26,4278738,33109,1523,4.6,869.61
+e61f0601-01f3-491e-bccc-bd0bf9d32fe6,Clearance Special 2020,SMS Marketing,5/10/2020,5/24/2020,East Coast,28644.94,1276888,11005,390,3.54,113.82
+9685fc9f-03c9-4ebe-a56a-bcc25216546a,Anniversary Event 2020,Social Media,6/5/2020,9/3/2020,Young Adults (18-25),11643.06,385074,5337,139,2.6,175.37
+72eb7c25-2d02-463f-9e38-76ddb236354e,Fall Bonanza 2024,Print Advertisement,4/18/2024,4/25/2024,All Customers,50831.2,3665422,23811,,1.08,67.97
+91a1bb69-78ed-42c9-810a-69a31d97bb5c,Back to School Bonanza 2024,In-Store Promotion,10/6/2024,11/5/2024,East Coast,12656.4,1086381,5198,1409,,4610.23
+69febf17-1e71-403a-9fc0-5d9fe06cd3e6,New Year Promotion 2021,In-Store Promotion,12/24/2022,1/7/2023,High-Value Customers,24340.88,319196,1146,230,20.07,397.94
+3398c829-9f8a-4aef-b771-41e37228f98f,Limited Time Event 2023,Social Media,9/26/2023,10/26/2023,Southern States,15025.04,677445,12772,491,3.84,822.33
+aa2660d4-9e7f-4c5d-a8a2-46b4abf953d4,Spring Promotion 2024,Print Advertisement,6/22/2020,9/20/2020,Loyal Customers,54228.74,5181268,20771,515,2.48,82.93
+235d978a-91d1-40b4-be70-785d49a1878a,Exclusive Blowout 2021,Search Engine Marketing,7/15/2020,8/14/2020,All Customers,35931.32,2952329,165028,12200,7.39,11851.96
+3542e4e4-d7cf-4e9e-8473-93078811b170,Summer Event 2021,Online Display Ads,3/4/2020,5/3/2020,Loyal Customers,36137.98,1722516,4675,118,2.52,40.08
+8b7bed1f-75b3-41b8-99e7-f6b2e0939ba7,Exclusive Bonanza 2023,Influencer Marketing,5/4/2023,6/3/2023,Middle-aged (41-60),58672.4,2554191,6413,143,2.23,-29.05
+1eb5ec7f-abfc-4f66-9064-b3fd95d1a195,New Year Bonanza 2021,In-Store Promotion,10/14/2020,10/21/2020,In-Store Shoppers,20549.06,117250,741,209,28.21,386.33
+27c4c42d-e3ee-4e84-967d-1b1fe09fbd5e,Summer Bonanza 2022,Radio Advertisement,1/17/2024,1/31/2024,Kitchen Enthusiasts,99933.7,7323201,57645,950,1.65,291.27
+9ff8aa36-1007-4099-a5bd-fe3344772484,Summer Event 2022,,6/1/2020,7/1/2020,Southern States,24548.16,271129,3542,155,4.38,42.04
+489afdcd-64a1-486b-818e-37185bf87352,Winter Deals 2022,Online Display Ads,10/5/2024,10/12/2024,West Coast,35956.61,3103285,19735,936,4.74,1199.06
+fdd902d9-c6af-42b8-9cd0-89414c896c4b,Flash Event 2024,Email Marketing,1/13/2025,1/20/2025,Southern States,19446.17,1537250,56055,2490,4.44,1684.02
+6e279f55-d2e0-4540-916f-eb9017d0662b,Clearance Discount 2022,Online Display Ads,9/5/2020,9/12/2020,All Customers,21727.91,2153624,16545,639,3.86,679.22
+91188f4f-426a-492b-b6b0-5783a8142306,Winter Special 2020,Radio Advertisement,8/12/2021,8/26/2021,High-Value Customers,66286.5,4869810,44210,2036,4.61,2586.57
+736327b2-acd1-4006-b381-7475c5c1d908,VIP Bonanza 2022,TV Advertisement,8/22/2022,11/20/2022,Midwest,124039.19,4935110,5868,251,4.28,-0.2
+34336829-01bb-4bf9-b3a4-eac2cea4f5d5,,Print Advertisement,5/20/2024,7/4/2024,Seniors (60+),77582.85,6531963,20489,719,3.51,204.35
+d1b8ef62-c3eb-40e4-9b8d-7cca2d10e749,Limited Time Deals 2023,Email Marketing,8/10/2022,9/24/2022,Young Adults (18-25),6995.41,363471,11525,376,3.26,1838.24
+44febcdd-01e2-4d69-94e0-34ed804d8488,Spring Special 2023,Radio Advertisement,10/16/2024,11/15/2024,Home Improvement,53108.96,1254433,7481,332,4.44,186.25
+e19a9899-afca-432f-bf89-9503b89bd983,Limited Time Event 2022,Search Engine Marketing,2/1/2021,5/2/2021,Online Shoppers,31059.19,455153,22523,1542,6.85,957.42
+a910a5e0-b762-4ea7-a49e-80c707c0147b,Spring Promotion 2024,Radio Advertisement,5/14/2023,6/28/2023,In-Store Shoppers,120819.71,4050106,40371,1671,4.14,295.36
+bc514826-162e-486b-b12b-19796857e2dc,Back to School Deals 2020,Print Advertisement,8/18/2020,9/1/2020,Technology Enthusiasts,28574.47,1484317,11671,284,,361.43
+23f8b4b2-ed67-41ee-960e-34670298be1c,Flash Deals 2022,Email Marketing,11/28/2023,12/12/2023,Southern States,27387.63,2609904,85870,5872,6.84,9972.45
+2cac3e91-4a45-42e8-b683-6f5e697718b2,Fall Discount 2021,SMS Marketing,5/3/2023,7/2/2023,Kitchen Enthusiasts,22308.87,62998,452,16,3.54,-81.53
+0796583d-28a2-4336-9ff0-081c519ad815,Fall Special 2023,TV Advertisement,3/25/2022,5/9/2022,Adults (26-40),62770.27,4124308,22385,705,3.15,345.06
+b9bcbbf1-8a52-44b0-8c2d-9f0db6da72ad,Summer Bonanza 2022,Social Media,2/27/2022,5/28/2022,High-Value Customers,30911.91,1480260,28855,844,2.92,2211.8
+a553cf2b-6b39-4759-a83b-1af013554356,New Year Discount 2024,In-Store Promotion,5/22/2021,6/21/2021,West Coast,26678.98,1840051,,4583,30.88,8027.18
+21ffa1be-f531-4aa2-97a3-3bcd4739eb9a,Weekend Bonanza 2024,Print Advertisement,10/31/2024,11/30/2024,Middle-aged (41-60),74682.39,2780134,6892,166,2.41,-71.74
+e9a4506a-a592-4914-a71b-4601082515a6,Weekend Collection 2024,Print Advertisement,8/5/2021,10/4/2021,New Customers,25394.1,2310050,7508,291,3.88,151.62
+ad77a131-c901-465e-9139-65476a966592,Limited Time Bonanza 2020,TV Advertisement,10/30/2021,1/28/2022,Technology Enthusiasts,190445.44,6615617,44488,861,1.94,61.22
+5bd58ad4-d87b-43d4-8186-19c8261e32c7,Holiday Collection 2023,In-Store Promotion,11/21/2023,11/28/2023,All Customers,7049.21,576291,1133,361,31.86,1817.79
+d7367c3f-4bfe-4433-8007-268d4cc77c5c,VIP Special 2022,Social Media,4/25/2024,6/24/2024,East Coast,28914.44,2829480,50987,1744,3.42,
+892301ca-40af-4858-9ee1-f895a303d4f0,Exclusive Bonanza 2024,,3/5/2023,3/12/2023,Adults (26-40),21566.18,1783369,9037,2638,29.19,5153.76
+b8499835-5146-4e73-b610-1c22175302aa,Limited Time Blowout 2024,Online Display Ads,10/16/2021,12/15/2021,Middle-aged (41-60),19959.38,931021,5070,154,3.04,53.2
+ec81ef16-c7f3-47a3-93ce-f4f31045269e,Weekend Special 2021,Print Advertisement,3/13/2024,4/27/2024,Loyal Customers,32511.89,1766305,3813,173,4.54,104.58
+7b6cb69a-7e91-49c7-9454-27800056aada,Anniversary Promotion 2024,SMS Marketing,5/25/2024,6/24/2024,Young Adults (18-25),24049.86,2229022,9267,291,3.14,230.79
+b61737de-8349-4e4f-82fe-f502c7fd18c3,Weekend Event 2021,TV Advertisement,7/29/2021,8/5/2021,Middle-aged (41-60),182981.44,17340675,31806,1292,4.06,76.54
+840728c1-a06b-4026-b7c8-f27d7212d824,Black Friday Blowout 2021,Radio Advertisement,11/8/2020,11/22/2020,Adults (26-40),160998.44,9995958,99572,1970,1.98,206.66
+9d353d4f-ae43-43fc-a345-68cdf66c59d2,Holiday Event 2023,Radio Advertisement,11/19/2022,1/3/2023,Adults (26-40),51215.09,1934603,18822,848,4.51,370.42
+f3828530-dd86-4772-a498-b577d538f459,Holiday Deals 2022,Search Engine Marketing,11/7/2024,12/7/2024,Home Improvement,38661.94,1634263,70753,,8.43,5727.17
+3927eedc-9ae4-4ca6-9020-6ca4278047e2,Holiday Bonanza 2020,Email Marketing,2/21/2023,3/23/2023,Midwest,6885.89,407681,10317,668,6.47,4190.16
+1c0e15da-d05b-4c52-b766-a4022ff2db2e,Anniversary Event 2024,Influencer Marketing,11/8/2022,11/22/2022,High-Value Customers,58081.36,5436932,40815,939,2.3,2039.32
+3f9103f4-f252-47bf-be20-980f892443dd,Summer Bonanza 2021,Online Display Ads,4/26/2024,6/25/2024,High-Value Customers,27051.81,2422681,11194,112,1,364.66
+7541a068-d558-42f2-888a-511f728b9ac6,Exclusive Promotion 2022,Radio Advertisement,4/21/2022,4/28/2022,Loyal Customers,91227.42,4487914,29410,1322,4.5,198.29
+39252361-8471-4883-bc9a-18b35de7570a,Anniversary Promotion 2023,Print Advertisement,7/24/2023,7/31/2023,West Coast,36208.23,2066219,9497,194,2.04,159.31
+eff0fa9f-7d20-46cc-89d6-6cba7e20062d,Anniversary Special 2022,SMS Marketing,7/29/2021,9/12/2021,Kitchen Enthusiasts,19926.02,1083610,4999,185,3.7,132.02
+20fe4ca5-c178-4603-91d0-10cca9b0efbb,Weekend Collection 2024,In-Store Promotion,1/19/2023,3/20/2023,Kitchen Enthusiasts,18484.93,319900,1446,319,22.06,160.33
+e53690fb-4e3d-410b-ac37-a3f03f808530,Winter Promotion 2021,Online Display Ads,10/4/2022,10/11/2022,Loyal Customers,45597.13,1164240,5829,190,3.26,46.38
+bad58a6a-51b7-4b82-93cd-f199baf8c4e0,Spring Event 2023,Radio Advertisement,1/4/2021,1/18/2021,Middle-aged (41-60),76717.41,1628488,14408,640,4.44,88.87
+54265cb6-3bf8-4e6b-b978-5f3af3f84d87,Exclusive Collection 2021,SMS Marketing,12/22/2021,1/21/2022,Kitchen Enthusiasts,26011.18,989270,6728,81,1.2,-7.98
+818079e3-9dec-4d6f-bc35-ac7e2f98ec04,Black Friday Promotion 2020,Print Advertisement,5/22/2023,5/29/2023,West Coast,75733.87,,3008,82,2.73,-73.87
+6a34ca6c-b4eb-4a22-86ab-4142d2ba5b37,Limited Time Extravaganza 2023,Search Engine Marketing,8/12/2024,10/11/2024,West Coast,17402.4,1580372,84823,5543,6.53,6252.91
+6402f7d9-e0fc-44e4-8f71-f880497b3e6d,,SMS Marketing,2/25/2023,3/27/2023,In-Store Shoppers,8468.46,384380,1115,19,1.7,-70.58
+07ed1233-fa8f-482e-b347-f0c281020509,Winter Promotion 2024,Radio Advertisement,1/22/2022,3/8/2022,Home Improvement,174365.11,4707282,43825,2130,4.86,393.48
+aa60967c-abe6-4c1d-a73b-f6bd869a322d,Fall Promotion 2020,Print Advertisement,9/5/2022,10/20/2022,Southern States,36526.94,,16783,708,4.22,416.44
+a396a8e8-7901-43b9-b6bc-041eaee364bd,Fall Extravaganza 2021,Print Advertisement,5/6/2024,6/20/2024,New Customers,,4461354,27541,,4.85,276.37
+b7c08521-1577-44d7-9d8e-c40a7afd9f7b,Black Friday Deals 2024,Online Display Ads,12/10/2022,1/9/2023,Technology Enthusiasts,47318.31,3019390,8619,182,2.11,-32.81
+784b6f62-4b08-4937-8a42-d216096b4c57,Weekend Bonanza 2021,Online Display Ads,12/8/2020,12/15/2020,High-Value Customers,31615,2445884,19018,877,4.61,3566.87
+b7a5e0eb-9070-4bd4-a75d-87abf84136aa,Anniversary Discount 2023,Influencer Marketing,1/28/2021,4/28/2021,Young Adults (18-25),55818.95,2577054,17162,480,2.8,89.42
+500eb2cd-30af-49e0-8947-cbbdf7bd9819,Holiday Event 2022,Online Display Ads,6/14/2022,6/28/2022,Technology Enthusiasts,12099.25,65978,618,12,1.94,-83.92
+03731181-15a1-41c1-88f5-72fe61631306,Back to School Bonanza 2023,In-Store Promotion,8/19/2022,8/26/2022,All Customers,26870.63,2322952,21235,5728,26.97,3157.43
+50421298-a79c-4bf7-aa50-313122446963,Fall Promotion 2024,TV Advertisement,8/16/2022,9/30/2022,Online Shoppers,66486.45,4104122,37842,1502,3.97,975.84
+f032d2bb-a307-4f8a-b1d5-0d5d94059247,Exclusive Event 2020,Email Marketing,3/8/2021,3/22/2021,In-Store Shoppers,16863.87,1358141,36788,936,2.54,1872.45
+48ddef4d-27dd-4b5c-b804-2f0756a338e0,Holiday Promotion 2024,TV Advertisement,3/8/2021,6/6/2021,East Coast,184381.09,,169299,5847,3.45,777.08
+65573b18-ab8e-4307-8215-33eed0ff5255,Winter Special 2020,SMS Marketing,10/31/2020,11/14/2020,New Customers,15812.09,530881,5147,251,4.88,596.12
+91a8a684-1172-4a3d-a919-eb2db7f95bff,Summer Promotion 2023,Radio Advertisement,9/12/2022,11/11/2022,In-Store Shoppers,155319.11,7795559,69793,1394,2,208.61
+a6949910-e478-4253-9292-fe1968908658,Fall Promotion 2023,Online Display Ads,7/10/2021,7/24/2021,Seniors (60+),40904.42,3773719,21213,625,2.95,213.82
+af8996a0-16b2-46ab-a0df-bbace2347750,Flash Promotion 2024,Search Engine Marketing,6/17/2023,8/1/2023,Home Improvement,10384.13,763980,25949,2734,10.54,12610.91
+37d9b67d-5e0c-43e7-a6e2-03e530cd0f17,Exclusive Sale 2021,Email Marketing,8/21/2022,8/28/2022,Adults (26-40),7186.61,111118,2268,70,3.09,37.54
+ed3a2d04-c6d0-442d-8bbd-2074269b8e09,Spring Event 2024,TV Advertisement,10/10/2022,11/24/2022,Kitchen Enthusiasts,104643.17,8395186,65443,2916,4.46,780.28
+de18d3d0-222f-443b-b26f-a71728b688b7,Limited Time Collection 2022,Radio Advertisement,10/1/2023,11/15/2023,Southern States,81799.11,6715314,31419,823,2.62,374.38
+9f255da5-f0e4-46d9-910a-8deae4fe01cc,,,6/30/2024,9/28/2024,Young Adults (18-25),131083.96,8152806,47144,2123,4.5,116.24
+06ba20c8-d222-4dbf-a1b5-c9ecc3e8db3d,New Year Special 2024,Influencer Marketing,7/14/2020,7/28/2020,Seniors (60+),28530.21,1953081,6346,222,3.5,100.6
+fdc3fc9c-58a8-4a58-8b6f-bd1cf56baa77,New Year Promotion 2020,In-Store Promotion,3/20/2024,4/19/2024,East Coast,16531.42,1390451,12961,2986,23.04,4804.99
+c3e21ace-8fb1-46d6-b95a-e385f8afeb75,Anniversary Blowout 2023,In-Store Promotion,12/4/2024,1/18/2025,Midwest,11616.93,346329,3065,780,25.45,2338.21
+c41f7d29-72bb-4a9e-9f8f-b5fa7b6f594f,Limited Time Bonanza 2022,Search Engine Marketing,11/22/2022,1/21/2023,All Customers,27202.83,1721721,116252,12423,10.69,20764.6
+aee201d4-c298-4947-8377-f3b264297a68,Weekend Extravaganza 2023,Online Display Ads,10/29/2020,11/12/2020,East Coast,23785.16,210094,749,35,4.67,-28.26
+8f5445ca-e169-4184-a136-9d616e7027df,Holiday Extravaganza 2023,Radio Advertisement,3/3/2022,6/1/2022,In-Store Shoppers,51189.65,4043444,29215,1108,3.79,446.68
+32057e76-d786-4702-9a7a-269442533230,Flash Promotion 2021,SMS Marketing,3/28/2024,4/27/2024,Middle-aged (41-60),11095.36,1019649,4673,165,3.53,328.74
+2174185f-8148-4afc-8a2c-4e71171a7ade,Exclusive Deals 2021,TV Advertisement,2/17/2023,5/18/2023,Kitchen Enthusiasts,101537.11,3978955,19467,458,2.35,
+9c5d79da-1b80-4df3-95f3-c6ad8188efa5,Holiday Promotion 2024,SMS Marketing,6/27/2020,8/11/2020,East Coast,26123.52,1012040,8141,209,2.57,108.5
+79971f60-bce5-4306-b48e-e10277393351,Limited Time Collection 2020,,8/21/2020,9/4/2020,Seniors (60+),34173.69,3135948,56400,1515,2.69,1386.56
+7845cf3a-7138-4df2-be3e-bfc16213d168,Exclusive Extravaganza 2024,Online Display Ads,9/24/2024,10/24/2024,New Customers,17944.65,1204548,11013,406,3.69,174.28
+2b5a8d4b-78a5-4fd2-a09d-aa2b91b7724c,Anniversary Discount 2021,Influencer Marketing,12/21/2021,1/4/2022,Inactive Customers,44745.14,2617017,14120,682,4.83,624.38
+74d96a09-a84d-4133-a00d-33be53ffb76c,Weekend Extravaganza 2023,Email Marketing,8/1/2021,8/15/2021,Midwest,28799.63,2858193,55509,1778,3.2,2982.27
+3832bb51-f2b0-4c4c-94a8-b7d1a727c7f6,Holiday Event 2024,Online Display Ads,1/23/2023,4/23/2023,Seniors (60+),22383.81,2051075,3682,126,3.42,100.02
+716d9d59-f3f5-4f64-a2dd-4c352159c94e,Back to School Event 2020,Social Media,7/25/2020,9/23/2020,Middle-aged (41-60),30051.16,760781,5293,132,2.49,66.37
+cba61b62-936e-4b40-9abd-29329d6b4a1b,Limited Time Extravaganza 2022,In-Store Promotion,4/27/2024,6/26/2024,Southern States,19128.17,111624,671,252,37.56,137.63
+578b5c86-505d-4418-91e5-cf0923b36f9d,Flash Blowout 2024,TV Advertisement,11/2/2023,12/2/2023,In-Store Shoppers,102403.58,472152,2864,120,4.19,-74.67
+98a558f9-7fb5-4f8b-af4d-b74f1a79a682,New Year Collection 2020,Email Marketing,12/10/2023,1/9/2024,Southern States,18468.61,438282,10309,211,2.05,348.01
+63dc1773-9030-4025-af6b-5c601d17c485,Anniversary Sale 2024,SMS Marketing,6/5/2021,7/20/2021,In-Store Shoppers,18882.22,544608,782,25,3.2,-84.65
+c5069066-41f9-49c1-801c-ee40a3245010,Holiday Discount 2024,Influencer Marketing,9/14/2023,9/21/2023,Kitchen Enthusiasts,42869.88,3243715,5208,250,4.8,-37.36
+60e8259c-1497-4943-9ca4-123f114da46d,Back to School Promotion 2022,TV Advertisement,12/16/2024,1/30/2025,Inactive Customers,143227.2,4091098,10438,236,2.26,-53.98
+565a466f-71fe-41ed-836f-e5f9f6d30e0c,Summer Special 2021,Print Advertisement,10/3/2023,12/2/2023,Southern States,76067.5,2749315,6735,77,1.14,-83.64
+05d8ea20-b45f-40ee-be1b-0e4d02549d16,,Influencer Marketing,1/22/2024,3/22/2024,Inactive Customers,45328.14,179549,1258,42,3.34,-73.98
+e89ebd0e-3122-470c-879c-8cfe54c83d20,Winter Collection 2022,Social Media,12/18/2022,3/18/2023,Loyal Customers,34722.72,1938590,17999,893,4.96,1175.82
+d2ea3c5c-edd1-440e-bffa-e89a779d2832,Fall Event 2021,Online Display Ads,12/29/2023,2/12/2024,Middle-aged (41-60),47025.5,3398880,22277,796,3.57,703.55
+164f5d5d-7170-4cb3-8161-4c46dded7cd1,Limited Time Blowout 2020,Search Engine Marketing,6/29/2024,8/13/2024,All Customers,13067.69,1133844,44577,5178,11.62,9775.31
+c272f7a3-319b-4f5e-9066-c2dc9812bceb,Anniversary Extravaganza 2022,Print Advertisement,8/27/2021,9/26/2021,Loyal Customers,23359.29,1570842,10467,485,4.63,535.99
+aedad518-49f9-47f7-b515-249d7268f41b,Spring Collection 2023,Email Marketing,11/14/2021,12/14/2021,Adults (26-40),6534.09,276410,4631,357,7.71,2340.87
+45f801e7-f299-4ce3-8517-3e142f072ffc,Exclusive Discount 2021,In-Store Promotion,8/5/2020,10/4/2020,Middle-aged (41-60),19026.36,1426912,5009,1921,38.35,3412.66
+7ee81399-5586-4063-aa94-67140318eeea,VIP Bonanza 2022,Search Engine Marketing,10/9/2022,10/16/2022,Midwest,30579.95,128888,9876,611,6.19,817.4
+e3a22946-a46d-4a17-90b1-e540cc55fc21,Weekend Bonanza 2022,Search Engine Marketing,6/13/2024,9/11/2024,Home Improvement,13262.16,1168604,76377,8748,11.45,29059.57
+e6cdb1f3-8768-4404-b775-e830ab7c8575,Spring Discount 2022,Influencer Marketing,4/3/2022,4/17/2022,Young Adults (18-25),54080.16,3308640,10283,321,3.12,195.9
+4e544bff-b751-40e7-8e8c-c71d4659b5c0,New Year Collection 2021,Online Display Ads,2/2/2024,2/9/2024,Middle-aged (41-60),41999.51,2455896,22562,719,3.19,153.07
+b2aedde0-51ac-4b5b-964e-61516b00c60f,Summer Special 2020,Influencer Marketing,6/14/2024,6/21/2024,All Customers,29159.37,588109,3975,196,4.93,194.86
+1bb1316d-b5a9-4386-bdc3-78047c406afa,Anniversary Deals 2023,SMS Marketing,12/2/2023,3/1/2024,High-Value Customers,24430.78,850806,5346,170,3.18,277.37
+369841a2-1893-4e1e-8d5d-3648d06ee408,Clearance Extravaganza 2022,Online Display Ads,5/29/2020,7/28/2020,In-Store Shoppers,10149.7,590148,1483,,2.97,114.08
+250b68cd-0c2f-429a-a6a2-5e7f74f8794c,Weekend Bonanza 2024,Print Advertisement,2/8/2023,3/10/2023,Southern States,55433.31,2344285,21773,369,1.69,48.44
+b2467dac-9479-4c7f-9c5f-4a732748447b,Clearance Extravaganza 2023,Radio Advertisement,9/15/2020,12/14/2020,Adults (26-40),68263.32,5058400,45666,2035,4.46,1350.42
+2b23c953-1adb-429b-abc4-f03c98004771,Flash Special 2021,Search Engine Marketing,6/16/2024,8/15/2024,Midwest,39929.61,1433229,63373,5151,8.13,3133.02
+17c199ea-899e-42d2-acb4-563f75271715,Exclusive Blowout 2022,Social Media,12/23/2021,12/30/2021,Middle-aged (41-60),45261.74,1566830,12705,306,2.41,80.48
+f0162c79-830a-46ef-85c6-f86796d016a7,Summer Collection 2024,Radio Advertisement,10/20/2021,12/4/2021,Inactive Customers,177945.48,12015786,67225,3264,4.86,480
+b7968718-3a68-43e7-b62e-ea66db65a1ce,Back to School Sale 2022,Radio Advertisement,4/13/2024,5/13/2024,In-Store Shoppers,186115.81,12468419,57219,2538,4.44,532.65
