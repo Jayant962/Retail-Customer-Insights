@@ -65,3 +65,161 @@ INNER JOIN [transaction] t ON i.customer_id=t.customer_id;
 -- Outcome:- 92.3% viewers are also buyers
 
 
+-- 7. Do customers with more interactions spend more?
+
+SELECT 
+    i.usage_category,
+    AVG(c.total_spent) AS avg_spent
+FROM customer c
+JOIN (
+    SELECT DISTINCT customer_id, usage_category
+    FROM interaction
+) i 
+ON c.customer_id = i.customer_id
+GROUP BY i.usage_category
+ORDER BY avg_spent DESC;
+
+
+-- Outcome:- It is totally opposite
+
+
+-- 8. Which campaign type generates the highest average ROI?
+
+SELECT TOP 1 campaign_type,AVG(roi) AS Avg_ROI
+FROM campaign
+GROUP BY campaign_type
+ORDER BY AVG(roi) DESC;
+
+-- Outcome:- Search Engine Marketing generates the highest average ROI
+
+
+-- 9. Which campaign type leads to the highest number of conversions?
+
+SELECT TOP 1 campaign_type,SUM(conversions) AS Total_Conversion
+FROM campaign
+GROUP BY campaign_type
+ORDER BY SUM(conversions) DESC;
+
+-- Outcome:- Search Engine Marketing generates the highest number of conversions
+
+
+-- 10. Is higher campaign budget associated with higher ROI?
+
+-- CORR(X,Y) = COV(X,Y) / ( STDEV(X) * STDEV(Y) )
+
+SELECT 
+    (AVG(budget * roi) - AVG(budget) * AVG(roi)) /
+    (STDEV(budget) * STDEV(roi)) AS budget_roi_correlation
+FROM campaign;
+
+-- Outcome:- Correlation is -0.15 almost near to zero so there is no such pattern of high budget high roi.
+
+
+-- 11. Which target segment has the highest average conversion rate?
+
+SELECT TOP 1 target_segment
+FROM campaign
+GROUP BY target_Segment
+ORDER BY AVG(conversion_rate) DESC;
+
+-- Outcome:- Home Improvement has the higher conversion rate
+
+
+-- 12. Which product category generates the highest total revenue?
+
+SELECT TOP 1 product_category AS Highest_Revenue_Category
+FROM [transaction]
+GROUP BY product_category
+ORDER BY SUM(final_amount) DESC;
+
+-- Outcome:- Furniture provides highest total revenue
+
+
+-- 13. Which product category has the highest average rating?
+
+SELECT TOP 1 product_category AS Highest_Avg_Rating,AVG(rating) Avg_Rating
+FROM review
+GROUP BY product_category
+ORDER BY AVG(rating) DESC;
+
+-- Outcome:- Audio Equipments products have highest avg. ratings of 4
+
+
+-- 14. What is the average order value per product category?
+
+SELECT product_category,AVG(final_amount) AS Avg_Amount
+FROM [transaction]
+GROUP BY product_category
+ORDER BY AVG(final_amount) DESC;
+
+-- Outcome:- TV, Laptop, Computers are on top
+
+
+-- 15. Which payment method is most used?
+
+SELECT TOP 1 payment_method , 
+           COUNT(*) * 100.0 /
+           (SELECT COUNT(*) FROM [transaction]) AS Percentage
+FROM [transaction]
+GROUP BY payment_method
+ORDER BY COUNT(*) DESC;
+
+-- Outcome:- 35.8% customers use Credit Card(Mostly used)
+
+
+-- 16. Which issue category occurs most frequently?
+
+SELECT issue_category,
+        COUNT(*) * 100.0 /
+        (SELECT COUNT(*) FROM ticket) AS Percentage
+FROM ticket
+GROUP BY issue_category
+ORDER BY COUNT(*) DESC;
+
+-- Outcome:- Almost every issue_category occurs as same frequency
+
+
+-- 17. What is the average resolution time?
+
+SELECT AVG(resolution_time_hours) AS Avg_Resolution_Time
+FROM ticket;
+
+-- Outcome:- Avg. resolution time is 45.8 hrs.
+
+
+-- 18. Does longer resolution time reduce customer satisfaction?
+
+SELECT 
+    (AVG(resolution_time_hours * customer_satisfaction_score) 
+     - AVG(resolution_time_hours) * AVG(customer_satisfaction_score)) 
+    /
+    (STDEV(resolution_time_hours) * STDEV(customer_satisfaction_score)) 
+    AS resolution_satisfaction_correlation
+FROM ticket
+WHERE resolution_time_hours IS NOT NULL
+  AND customer_satisfaction_score IS NOT NULL;
+
+-- Outcome:- Longer resolution time slightly reduces customer satisfaction but it is not strong.
+
+
+-- 19. Do customers with frequent support tickets spend less?
+
+WITH ticket_count AS (
+    SELECT 
+        customer_id,
+        COUNT(*) AS total_tickets
+    FROM ticket
+    GROUP BY customer_id
+)
+
+SELECT 
+    (AVG(t.total_tickets * c.total_spent) 
+     - AVG(t.total_tickets) * AVG(c.total_spent)) 
+    /
+    (STDEV(t.total_tickets) * STDEV(c.total_spent)) 
+    AS ticket_spend_correlation
+FROM ticket_count t
+JOIN customer c 
+    ON t.customer_id = c.customer_id;
+
+-- Outcome:- Customers who raise more support tickets actually spend more
