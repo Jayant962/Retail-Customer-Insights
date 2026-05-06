@@ -2,63 +2,69 @@ import streamlit as st
 from preprocessing import preprocess
 import sqlite3
 import pandas as pd
+import streamlit.components.v1 as components
 
-col1,col2 = st.columns(2)
+# Initialize session state keys if they don't exist
+if 'processed' not in st.session_state:
+    st.session_state['processed'] = False
+if 'show_questions' not in st.session_state:
+    st.session_state['show_questions'] = False
+if 'show_dashboard' not in st.session_state:
+    st.session_state['show_dashboard'] = False
+
+col1, col2 = st.columns(2)
 
 with col1:
-    transaction = st.file_uploader("Upload your transaction file",type="csv",accept_multiple_files=False)
-    ticket = st.file_uploader("Upload your support_ticket file",type="csv",accept_multiple_files=False)
-    interaction = st.file_uploader("Upload your interactions file",type="csv",accept_multiple_files=False)
+    transaction = st.file_uploader("Upload your transaction file", type="csv")
+    ticket = st.file_uploader("Upload your support_ticket file", type="csv")
+    interaction = st.file_uploader("Upload your interactions file", type="csv")
 with col2:
-    customer = st.file_uploader("Upload your customer_details file",type="csv",accept_multiple_files=False)
-    campaigns = st.file_uploader("Upload your campaigns file",type="csv",accept_multiple_files=False)
-    review = st.file_uploader("Upload your customer_review file",type="csv",accept_multiple_files=False)
+    customer = st.file_uploader("Upload your customer_details file", type="csv")
+    campaigns = st.file_uploader("Upload your campaigns file", type="csv")
+    review = st.file_uploader("Upload your customer_review file", type="csv")
 
-
+# --- STEP 1: PREPROCESSING ---
 if st.button("Start Preprocessing"):
-    clean_customer,clean_ticket,clean_campaign,clean_review,clean_transaction,clean_interaction = preprocess(customer,ticket,campaigns,review,transaction,interaction)
-    st.success("Preprocessing completed")
-
-    # Store dataframes in session_state
-    st.session_state['processed'] = True
-
+    # Perform preprocessing
+    clean_customer, clean_ticket, clean_campaign, clean_review, clean_transaction, clean_interaction = preprocess(
+        customer, ticket, campaigns, review, transaction, interaction
+    )
+    
+    # Store in session state
     st.session_state['clean_customer'] = clean_customer
     st.session_state['clean_campaign'] = clean_campaign
     st.session_state['clean_ticket'] = clean_ticket
     st.session_state['clean_review'] = clean_review
     st.session_state['clean_transaction'] = clean_transaction
     st.session_state['clean_interaction'] = clean_interaction
+    st.session_state['processed'] = True
+    st.success("Preprocessing completed")
 
+# --- STEP 2: SQL ANALYSIS ---
+if st.session_state['processed']:
+    # Use button to toggle state
+    if st.button("See Business Questions & Answers"):
+        st.session_state['show_questions'] = True
 
-if(st.session_state.get('processed')):
-
-    if(st.button("See Buisness Questions & Answers")):
-        # Retrieve dataframes from session_state
-        clean_customer = st.session_state["clean_customer"]
-        clean_ticket = st.session_state["clean_ticket"]
-        clean_campaign = st.session_state["clean_campaign"]
-        clean_review = st.session_state["clean_review"]
-        clean_transaction = st.session_state["clean_transaction"]
-        clean_interaction = st.session_state["clean_interaction"]
-
-
+    if st.session_state['show_questions']:
+        # Establish connection
         conn = sqlite3.connect("Retail_Interaction.db")
+        
+        # Write to SQL (Optimized: only needs to happen once, but fine here for now)
+        st.session_state['clean_customer'].to_sql("customer", conn, if_exists="replace", index=False)
+        st.session_state['clean_ticket'].to_sql("ticket", conn, if_exists="replace", index=False)
+        st.session_state['clean_campaign'].to_sql("campaign", conn, if_exists="replace", index=False)
+        st.session_state['clean_review'].to_sql("review", conn, if_exists="replace", index=False)
+        st.session_state['clean_transaction'].to_sql("transaction", conn, if_exists="replace", index=False)
+        st.session_state['clean_interaction'].to_sql("interaction", conn, if_exists="replace", index=False)
 
-        clean_customer.to_sql("customer", conn, if_exists="replace", index=False)
-        clean_ticket.to_sql("ticket", conn, if_exists="replace", index=False)
-        clean_campaign.to_sql("campaign", conn, if_exists="replace", index=False)
-        clean_review.to_sql("review", conn, if_exists="replace", index=False)
-        clean_transaction.to_sql("transaction", conn, if_exists="replace", index=False)
-        clean_interaction.to_sql("interaction", conn, if_exists="replace", index=False)
+        with open("Buisness_Questions_Answer_SQL.sql", "r") as file:
+            queries = file.read().split(';')
 
-        with open("Buisness_Questions_Answer_SQL.sql","r") as file:
-            sql_queries = file.read()
-
-        queries = sql_queries.split(';')
-
-        st.header("Buisness Questions & Answers")
-
-        col3,col4 = st.columns(2)
+        st.header("Business Questions & Answers")
+        col3, col4 = st.columns(2)
+        
+        # Display results (Example: index 1 and 2)
         with col3:
             st.subheader("Yearly registered customers")
             st.write(pd.read_sql_query(queries[1], conn))
@@ -94,5 +100,20 @@ if(st.session_state.get('processed')):
             st.write(pd.read_sql_query(queries[15],conn))
             st.subheader("What is the average resolution time")
             st.write(pd.read_sql_query(queries[16],conn))
+        
+        conn.close()
 
-        st.success("SQL Queries Answered")
+# --- STEP 3: DASHBOARD ---
+if st.session_state.get('show_questions'):
+    if st.button('Show Dashboard'):
+        st.session_state['show_dashboard'] = True
+
+    if st.session_state['show_dashboard']:
+        components.html(
+            """
+            <iframe title="Dashboard" width="600" height="373.5" 
+            src="https://app.powerbi.com/view?r=eyJrIjoiNjNiMzcwYTUtOGVjMC00MWU3LWFiOWUtZDQ5YTkxOGFiNDYzIiwidCI6ImUxNGU3M2ViLTUyNTEtNDM4OC04ZDY3LThmOWYyZTJkNWE0NiIsImMiOjEwfQ%3D%3D" 
+            frameborder="0" allowFullScreen="true"></iframe>
+            """,
+            height=700
+        )
