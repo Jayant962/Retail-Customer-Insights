@@ -82,24 +82,26 @@ if st.session_state['processed']:
             st.write(pd.read_sql_query(queries[7], conn))
             st.subheader("Which campaign type generates the highest average ROI")
             st.write(pd.read_sql_query(queries[8], conn))
-
-        with col4:
             st.subheader("Which campaign type leads to the highest number of conversions")
             st.write(pd.read_sql_query(queries[9],conn))
+
+        with col4:
             # st.subheader("Which target segment has the highest average conversion rate")
             # st.write(pd.read_sql_query(queries[10],conn))
-            st.subheader("Which product category generates the highest total revenue")
+            st.subheader("Which target segment has the highest average conversion rate")
             st.write(pd.read_sql_query(queries[11],conn))
-            st.subheader("Which product category has the highest average rating")
+            st.subheader("Which product category generates the highest total revenue")
             st.write(pd.read_sql_query(queries[12],conn))
-            st.subheader("What is the average order value per product category")
+            st.subheader("Which product category has the highest average rating")
             st.write(pd.read_sql_query(queries[13],conn))
-            st.subheader("Which payment method is most used")
+            st.subheader("What is the average order value per product category")
             st.write(pd.read_sql_query(queries[14],conn))
-            st.subheader("Which issue category occurs most frequently")
+            st.subheader("Which payment method is most used")
             st.write(pd.read_sql_query(queries[15],conn))
-            st.subheader("What is the average resolution time")
+            st.subheader("Which issue category occurs most frequently")
             st.write(pd.read_sql_query(queries[16],conn))
+            st.subheader("What is the average resolution time")
+            st.write(pd.read_sql_query(queries[17],conn))
         
         conn.close()
 
